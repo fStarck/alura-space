@@ -1,6 +1,8 @@
+import './styles/estilosGlobais.css'
+import PaginaInicial from "./pages/PaginaInicial";
 
 export default function App() {
   return (
-    <h1>App</h1>
-  );
+      <PaginaInicial class="body" />
+    );
 }
